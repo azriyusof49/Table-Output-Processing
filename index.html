@@ -24,7 +24,22 @@
         <h1>Table Output and Processing</h1>
         <button onclick="loadCSV()" class="btn btn-primary">Load CSV</button>
       </div>
+      <div class="row justify-content-center  align-items-center">
         <div class="col-6 m-3">
+            <h1 class="title">Table 1</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                    <th scope="col">Index</th>
+                    <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body2">
+                </tbody>
+            </table>
+        </div>
+        <div class="col-6 m-3">
+            <h1 class="title">Table 2</h1>
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -36,7 +51,9 @@
                 </tbody>
             </table>
         </div>
+      </div>
     </div>
+        
     <script src="script.js"></script>
   </body>
 </html>
